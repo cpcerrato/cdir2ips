@@ -33,6 +33,44 @@ Usage: cdir2ips -c <ADDRESS>[/<NETMASK>]
 
 ```
 
+Examples:
+
+Display CDIR info:
+```bash
+# cdir2ips -c 
+
+        Address:        173.194.0.0
+        Netmask:        255.255.255.240 = 28
+        Network:        173.194.0.0/28
+        First Host:     173.194.0.1
+        Last Host:      173.194.0.14
+        Broadcast:      173.194.0.15
+        Hosts:          14
+        Class:          Class B
+
+```
+
+Expands CDIR into an IP range:
+```bash
+# cdir2ips -c 173.194.0.0/28 -e 173.194.0.0/28
+173.194.0.0
+173.194.0.1
+173.194.0.2
+173.194.0.3
+173.194.0.4
+173.194.0.5
+173.194.0.6
+173.194.0.7
+173.194.0.8
+173.194.0.9
+173.194.0.10
+173.194.0.11
+173.194.0.12
+173.194.0.13
+173.194.0.14
+173.194.0.15
+```
+
 License and Author
 ==================
 Copyright (C) May, 2014 Carlos Perez Cerrato <cperezcerrato@gmail.com>

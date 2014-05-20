@@ -106,15 +106,15 @@ function calculate_range(){
     CLASS_BIN=${IP_BINARY:0:3}
     if [[ $CLASS_BIN =~ ^110$ ]]
     then
-        CLASS="Clase C"
+        CLASS="Class C"
     elif [[ $CLASS_BIN =~ ^10[0-1]$ ]]
     then
-        CLASS="Clase B"
+        CLASS="Class B"
     elif [[ "$CLASS_BIN" =~ ^0[0-1]{2}$ ]]
     then
-        CLASS="Clase A"
+        CLASS="Class A"
     else
-        CLASS="Clase desconocidda $CLASS_BIN"
+        CLASS="Unknow class $CLASS_BIN"
     fi
 }
 
