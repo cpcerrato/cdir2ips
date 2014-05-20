@@ -1,7 +1,7 @@
 cdir2ips
 ================
 
-This script take a cdir specified by command line arguments display info and return ip range belongs to.
+This script takes a CDIR specified by command line arguments, displays info about it and returns the corresponding IP range for it.
 
 
 Installation
@@ -22,7 +22,7 @@ Feel free to put the script in the path you want.
 Usage
 =====
 
-Show information specified by command line arguments furthermore it expand cdir into a ip range.
+Shows information specified by command line arguments, furthermore, it expands CDIR into an IP range.
 
 ```bash
 Usage: cdir2ips -c <ADDRESS>[/<NETMASK>]
