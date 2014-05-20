@@ -37,7 +37,7 @@ Examples:
 
 Display CDIR info:
 ```bash
-# cdir2ips -c 
+# cdir2ips -c 173.194.0.0/28
 
         Address:        173.194.0.0
         Netmask:        255.255.255.240 = 28
@@ -52,7 +52,7 @@ Display CDIR info:
 
 Expands CDIR into an IP range:
 ```bash
-# cdir2ips -c 173.194.0.0/28 -e 173.194.0.0/28
+# cdir2ips -c 173.194.0.0/28 -e 
 173.194.0.0
 173.194.0.1
 173.194.0.2
