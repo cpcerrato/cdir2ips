@@ -1,4 +1,4 @@
-cdir2ips
+Description
 ================
 
 This script takes a CDIR specified by command line arguments, displays info about it and returns the corresponding IP range for it.
