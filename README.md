@@ -17,7 +17,7 @@ Set permissions:
 ```bash
 $ chmod +x /usr/local/bin/cdir2ips
 ```
-Feel free to put the script in the path you want.
+Feel free to place the script in any path you want.
 
 Usage
 =====
