@@ -10,7 +10,7 @@ Installation
 Checkout the script:
 
 ```bash
-$ wget https://raw.github.com/cperezcerrato/cdir2ips/master/cdir2ips -O /usr/local/bin/cdir2ips
+$ wget --no-check-certificate https://raw.github.com/cperezcerrato/cdir2ips/master/cdir2ips -O /usr/local/bin/cdir2ips
 ```
 
 Set permissions:
